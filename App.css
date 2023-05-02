@@ -1,0 +1,77 @@
+body{
+
+
+background: hsl(30, 38%, 92%);
+   
+}
+.card-body{
+  margin-left: 55px;
+  margin-top: 20px;
+  
+}
+.card-title {
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: gray;
+}
+.card-text1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Poltawski Nowy';
+  line-height: 45px;
+  margin-top: 40px;  
+}
+.card-text2{
+  margin-top: 40px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.Price{
+  margin-top: 60px;
+  display: flex;
+  
+}
+.Price h1{
+  color: rgb(61, 109, 61);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.Price h5{
+  text-decoration: line-through;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  
+}
+.btn-Cart{
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  
+}
+.btn-Cart button{
+  width: 250px;
+  height: 50px;
+  border-radius: 9px;
+  background-color:  rgb(61, 109, 61);
+  color: white;
+  
+
+}
+.btn-Cart .icon{
+  position: absolute;
+  color: white;
+ margin-left: 52px;
+ margin-top: 11px;
+ 
+
+}
+.btn-Cart :hover{
+  color:  rgb(61, 109, 61);
+  background-color: white;
+
+}
+
+
